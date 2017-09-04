@@ -1,0 +1,33 @@
+/*
+* @Author: Administrator
+* @Date:   2017-01-17 17:07:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-01-19 15:04:17
+*/
+
+/* 声明字体文件 */
+@font-face{
+	font-family: 'itcast';
+	src :
+		url(../fonts/MiFie-Web-Font.eot) format('embedded-opentype'),
+		url(../fonts/MiFie-Web-Font.svg) format('svg'),
+  		url(../fonts/MiFie-Web-Font.ttf) format('truetype'),
+  		url(../fonts/MiFie-Web-Font.woff) format('woff')
+	 ;
+}
+.wjs-icons {
+	font-family: 'itcast';
+	font-size: 14px;
+}
+body {
+	font: 12px/1.5 'microsoft yahei';
+}
+a {
+	color: #333;
+}
+.color-red {
+	color: #E92322;
+}
+.ml-10 {
+	margin-left: 10px;
+}
