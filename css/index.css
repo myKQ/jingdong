@@ -1,0 +1,276 @@
+/*
+* @Author: Administrator
+* @Date:   2017-01-13 11:34:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-01-16 09:12:27
+*/
+/* 头部开始 */
+html{
+	/* 约束最大宽 最小宽 */
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.jd-header {
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	z-index: 99998;
+}
+.jd-header .left {
+	width: 75px;
+	height: 40px;
+	position: relative;
+}
+.jd-header .left:before {
+	width: 57px;
+	height: 23px;
+	background-position: 0 -109px;
+}
+.jd-header .right {
+	width: 47px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+.jd-header .center {
+	height: 40px;
+	margin: 0 47px 0 75px;
+	position: relative;
+}
+.jd-header .center:before {
+	width: 19px;
+	height: 19px;
+	background-position: -60px -109px;
+	left: 5px;
+}
+.jd-header .center input[type="search"]{
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 15px;
+	border:none;
+	margin-top: 4px;
+	text-indent: 25px;
+}
+
+/* nav */
+.jd-nav {
+	background-color: #F3F3F3;
+	padding:10px 0;
+}
+.jd-nav a {
+	padding:0 10px;
+	display: block;
+}
+.jd-nav a img{
+	/* width: 40px;
+	height: 40px; */
+	margin: 0 auto;
+}
+.jd-nav  .nav-txt {
+	text-align: center;
+	line-height: 30px;
+}
+	
+/* 轮播区域 */
+.jd-carouse {
+	position: relative;
+	overflow: hidden;
+}	
+.carouse-wrap {
+	position: relative;
+	min-height: 143px;
+}
+
+.carouse-wrap li {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/* 不建议用left去移动位置 ，因为这样移动的是原点的原点*/
+	-webkit-transform : translateX(100%);
+	transform : translateX(100%);
+}
+.point-wrap {
+	text-align: center;
+	font-size: 0;
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+}
+.point-wrap li {
+	width: 7px;
+	height: 7px;
+	border:1px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 3px;
+}
+.point-wrap li.active {
+	background-color: #fff;
+}
+
+
+/* 京东快报 */
+.jd-news {
+	background-color: #F3F3F3;
+	padding:5px 8px;
+}
+.jd-news-wrap {
+	background-color: #fff;
+	height: 30px;
+	border-radius: 6px;
+}
+.jd-news-wrap .left{
+	width: 80px;
+	height: 30px;
+	position: relative;
+}
+.jd-news-wrap .right {
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+}
+.jd-news-wrap .center {
+	height: 30px;
+	margin: 0 40px 0 80px;
+	overflow: hidden;
+	position: relative;	
+}
+.jd-news-scroll {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.jd-news-scroll li {
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+
+/* 秒杀区域 */
+.jd-seckill {
+	background-color: #fff;
+}
+.jd-kill-t {
+	height: 35px;
+	line-height: 35px;
+}
+.jd-kill-time {
+	color: #ca1327;
+	/* 字间距 */
+	letter-spacing: 7px;
+	text-indent: 33px;
+	font-size: 14px;
+	position: relative;
+}
+.jd-kill-time:before {
+	width: 17px;
+	height: 22px;
+	background-position: -84px -109px;
+	left: 10px;
+}
+.jd-kill-more {
+	margin-right: 10px;
+}
+.jd-time-info {
+	width: 100px;
+	height: 28px;
+	right: -100px;
+	letter-spacing: 0;
+	text-indent: 0;
+	font-size: 0;
+}
+.jd-time-info > span {
+	float: left;
+	width: 10px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	font-size: 12px;
+}
+.jd-time-info > span:nth-child(3n+1) {
+	border-radius: 5px 0 0 5px;
+}
+.jd-time-info > span:nth-child(3n+2) {
+	border-radius: 0 5px 5px 0;
+}
+.jd-time-info > span:nth-child(3n) {
+	background-color: transparent;
+	color: #000;
+}
+.jd-kill-b {
+	margin-top: 10px;
+	overflow: scroll;
+}
+.jd-kill-b ul{
+	/* 后面需要用JS去替换掉 */
+	width: 10000px;
+}
+.jd-kill-pro {
+	display: block;
+	width: 90px;
+	height: 70px;
+	border-right: 1px solid #eee;
+	position: relative;
+}
+.jd-kill-pro img {
+	width: 60px;
+	height: 60px;
+}
+.jd-kill-b p {
+	text-align: center;
+}
+.new-pri {
+	color: #F35353;
+	font-weight: 700;
+	font-size: 14px;
+}
+.old-pri {
+	text-decoration: line-through;
+}
+
+.jd-main {
+	border-top: 1px solid #ccc;
+}
+/* 产品主体区域 */
+.jd-product {
+	background-color: #fff;
+}
+.jd-pro-items {
+	position: relative;
+}
+.jd-pro-item {
+	position: relative;
+	min-height: 82px;
+	padding: 10px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.jd-pro-pic {
+	width: 45%;
+}
+.jd-pro-txt {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.jd-pro-txt h3{
+	font-size: 16px;
+}
+.jd-pro-txt p {
+	font-size: 14px;
+	line-height: 30px;
+}

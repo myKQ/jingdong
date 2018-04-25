@@ -1,0 +1,234 @@
+/*
+* @Author: Administrator
+* @Date:   2017-01-16 14:50:17
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-01-17 09:10:08
+*/
+/* 头部开始 */
+.cate-header .center{
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+}
+/* 安全提示 */
+.safe-tips {
+	text-align: center;
+	line-height: 34px;
+	height: 32px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.safe-tips p{
+	position: relative;
+	width: 200px;
+	height: 33px;
+	margin: 0 auto;
+}
+.safe-tips p:before {
+	content: '';
+	width: 18px;
+	height: 18px;
+	left: -18px;
+	background:  url(../image/icons/safe_icon.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+/* 主体区域 */
+.cart-main {
+	margin-top: 10px;
+	background-color: #fff;
+}
+.cart-m-h {
+	height: 32px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.cart-mh-r {
+	line-height: 32px;
+	color: #F16868;
+	margin-right: 10px;
+}
+.jd-zy {
+	line-height: 32px;
+	margin-left: 20px;
+	position: relative;
+}
+.jd-zy:before {
+	width: 15px;
+	height: 10px;
+	-webkit-background-size: 120px;
+	background-size: 120px;
+	left: -15px;
+}
+.cart-pro-item {
+	border-bottom: 1px solid #ccc;
+}
+.cart-pro-info {
+	margin-left: 40px;
+	height: 100px;
+}
+.img-wrap {
+	width: 80px;
+	height: 100px;
+}
+.img-wrap img {
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+}
+.pro-txt-wrap {
+	margin-left: 90px;
+	height: 100px;
+	overflow: hidden;
+}
+.pro-txt-wrap .pro-txt-t {
+	margin-top: 10px;
+	-webkit-line-clamp: 2;
+}
+.pro-txt-wrap .pro-txt-b {
+	margin-top: 20px;
+}
+.pro-txt-wrap .pro-tb-l {
+	border: 1px solid #ccc;
+	width: 110px;
+	height: 30px;
+	font-size: 0;
+}
+.pro-txt-wrap .pro-tb-l span {
+	width: 33.3333%;
+	height: 30px;
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+}
+.pro-txt-wrap .pro-tb-l span:nth-child(2) input{
+	width: 100%;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.pro-txt-wrap .pro-tb-r {
+	margin-right: 10px;
+    margin-top: 5px;
+}
+.pro-tb-r .del-t {
+	width: 20px;
+	height: 5px;
+	background:  url(../image/icons/delete_up.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: relative;
+	left: -1px;
+	top: 1px;
+	-webkit-transition:transform .5s;
+	transition:transform .5s;
+}
+.pro-tb-r .del-b {
+	width: 18px;
+	height: 18px;
+	background:  url(../image/icons/delete_down.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+/* 自定义动画 */
+.myaniamte{
+	animation-name : myaniamte;
+}
+
+@keyframes myaniamte {
+	
+
+:hov
+
+.cls
+
+element.style {
+}
+.myBounceInDown {
+    animation-name: myBounceInDown;
+    -webkit-animation-name: myBounceInDown;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.pop-info {
+    width: 80%;
+    height: 160px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.b-center, .bw-center:before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from section.pop-model
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+Inherited from body
+body {
+    font: 12px/1.5 'Microsoft YaHei','宋体', Tahoma, Arial, sans-serif;
+    color: #555;
+    background-color: #F7F7F7;
+}
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+Inherited from html
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+@keyframes myBounceInDown
+	0%, 60%, 75%, 90%, 100% {
+	    -webkit-animation-timing-function: cubic-bezier(.215,.61,.355,1);
+	    animation-timing-function: cubic-bezier(.215,.61,.355,1);
+	}
+	0% {
+	    opacity: 0;
+	    -webkit-transform: translate3d(-50%,-3000px,0);
+	    transform: translate3d(-50%,-3000px,0);
+	}
+	60% {
+	    opacity: 1;
+	    -webkit-transform: translate3d(-50%,10%,0);
+	    transform: translate3d(-50%,10%,0);
+	}
+	75% {
+	    -webkit-transform: translate3d(-50%,-70%,0);
+	    transform: translate3d(-50%,-70%,0);
+	}
+	90% {
+	    -webkit-transform: translate3d(-50%,-45%,0);
+	    transform: translate3d(-50%,-45%,0);
+	}
+	100% {
+	    -webkit-transform: translate3d(-50%,-50%,0);
+	    transform: translate3d(-50%,-50%,0);
+	}
+}
